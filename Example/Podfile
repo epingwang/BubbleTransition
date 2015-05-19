@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'BubbleTransition', :exclusive => true do
+  pod "BubbleTransition", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "BubbleTransition", :path => "../"
+
+  
+end
