@@ -69,7 +69,7 @@
 		D34F15209E3FD6A1372B6E53 /* Pods-BubbleTransition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BubbleTransition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BubbleTransition/Pods-BubbleTransition.debug.xcconfig"; sourceTree = "<group>"; };
 		ED40C92108DA1AA619B61A77 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F80CF0B0B47C8C1DC7026079 /* Pods-BubbleTransition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BubbleTransition.release.xcconfig"; path = "Pods/Target Support Files/Pods-BubbleTransition/Pods-BubbleTransition.release.xcconfig"; sourceTree = "<group>"; };
-		F8358ABD893E32ECD09F9F7B /* BubbleTransition.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BubbleTransition.podspec; path = ../BubbleTransition.podspec; sourceTree = "<group>"; };
+		F8358ABD893E32ECD09F9F7B /* BubbleTransition-objc.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "BubbleTransition-objc.podspec"; path = "../BubbleTransition-objc.podspec"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,7 +182,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				F8358ABD893E32ECD09F9F7B /* BubbleTransition.podspec */,
+				F8358ABD893E32ECD09F9F7B /* BubbleTransition-objc.podspec */,
 				24E0A295E067EFE6C573E79D /* README.md */,
 				ED40C92108DA1AA619B61A77 /* LICENSE */,
 			);
