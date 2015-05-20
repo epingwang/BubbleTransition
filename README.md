@@ -8,7 +8,7 @@
 An objective-C version of [andreamazz/BubbleTransition](https://github.com/andreamazz/BubbleTransition). A custom modal transition that presents and dismiss a controller inside an expanding and shrinking _bubble_.
 
 # Screenshot
-![BubbleTransition](https://raw.githubusercontent.com/epingwang/BubbleTransition/master/assets/screenshot.gif)
+![BubbleTransition](https://raw.githubusercontent.com/epingwang/BubbleTransision/master/Pod/Assets/screenshot.gif)
 
 ## Usage
 
