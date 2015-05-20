@@ -8,7 +8,7 @@
 An objective-C version of [andreamazz/BubbleTransition](https://github.com/andreamazz/BubbleTransition). A custom modal transition that presents and dismiss a controller inside an expanding and shrinking _bubble_.
 
 # Screenshot
-![BubbleTransition]()
+![BubbleTransition](https://raw.githubusercontent.com/epingwang/BubbleTransition/master/assets/screenshot.gif)
 
 ## Usage
 
@@ -67,7 +67,7 @@ YPBubbleTransitionMode transitionMode = YPBubbleTransitionModePresent;
 The transition direction. Either `YPBubbleTransitionModePresent` or `YPBubbleTransitionModeDismiss`.
 
 ```swift
-UIColor bubbleColor = [UIColor whiteColor];
+UIColor *bubbleColor = [UIColor whiteColor];
 ```
 The color of the bubble. Make sure that it matches the destination controller's background color.  
 
