@@ -22,6 +22,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		92B68C5B1B0C224800FA7C2C /* YPModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B68C5A1B0C224800FA7C2C /* YPModalViewController.m */; };
+		A7D65BC4B04D6ACFF2BE10DD /* libPods-BubbleTransition.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62493D90BB9AD616C80C838B /* libPods-BubbleTransition.a */; };
+		CFB79AAC787E1173382EAC08 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B75C2BBF97DBBBFAF1E668FF /* libPods-Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		24E0A295E067EFE6C573E79D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		24E0A295E067EFE6C573E79D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		46A33AC64148FF915044FA35 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BubbleTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,8 +61,15 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		62493D90BB9AD616C80C838B /* libPods-BubbleTransition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BubbleTransition.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE0B0B25EDB3F50CDB5BAA3 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		92B68C591B0C224800FA7C2C /* YPModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPModalViewController.h; sourceTree = "<group>"; };
+		92B68C5A1B0C224800FA7C2C /* YPModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPModalViewController.m; sourceTree = "<group>"; };
+		B75C2BBF97DBBBFAF1E668FF /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34F15209E3FD6A1372B6E53 /* Pods-BubbleTransition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BubbleTransition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BubbleTransition/Pods-BubbleTransition.debug.xcconfig"; sourceTree = "<group>"; };
 		ED40C92108DA1AA619B61A77 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F8358ABD893E32ECD09F9F7B /* BubbleTransition.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = BubbleTransition.podspec; path = ../BubbleTransition.podspec; sourceTree = "<group>"; };
+		F80CF0B0B47C8C1DC7026079 /* Pods-BubbleTransition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BubbleTransition.release.xcconfig"; path = "Pods/Target Support Files/Pods-BubbleTransition/Pods-BubbleTransition.release.xcconfig"; sourceTree = "<group>"; };
+		F8358ABD893E32ECD09F9F7B /* BubbleTransition.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BubbleTransition.podspec; path = ../BubbleTransition.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +80,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				A7D65BC4B04D6ACFF2BE10DD /* libPods-BubbleTransition.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +91,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				CFB79AAC787E1173382EAC08 /* libPods-Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +106,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
+				8FE75B5B7F5382E56F61B57D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +126,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
+				62493D90BB9AD616C80C838B /* libPods-BubbleTransition.a */,
+				B75C2BBF97DBBBFAF1E668FF /* libPods-Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -127,6 +143,8 @@
 				6003F5A6195388D20070C39A /* YPViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				92B68C591B0C224800FA7C2C /* YPModalViewController.h */,
+				92B68C5A1B0C224800FA7C2C /* YPModalViewController.m */,
 			);
 			path = BubbleTransition;
 			sourceTree = "<group>";
@@ -171,6 +189,17 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		8FE75B5B7F5382E56F61B57D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D34F15209E3FD6A1372B6E53 /* Pods-BubbleTransition.debug.xcconfig */,
+				F80CF0B0B47C8C1DC7026079 /* Pods-BubbleTransition.release.xcconfig */,
+				7AE0B0B25EDB3F50CDB5BAA3 /* Pods-Tests.debug.xcconfig */,
+				46A33AC64148FF915044FA35 /* Pods-Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -178,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "BubbleTransition" */;
 			buildPhases = (
+				52692EAF7310ACC0373CE6CC /* Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				019269EA4078EB8C7237A97C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
+				AA17D48AD60C3DABA74F0050 /* Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
+				910386E9320BE80D61649300 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,7 +257,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "BubbleTransition" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -265,6 +298,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		019269EA4078EB8C7237A97C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BubbleTransition/Pods-BubbleTransition-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52692EAF7310ACC0373CE6CC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		910386E9320BE80D61649300 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA17D48AD60C3DABA74F0050 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -273,6 +369,7 @@
 				6003F59E195388D20070C39A /* YPAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YPViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				92B68C5B1B0C224800FA7C2C /* YPModalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +501,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D34F15209E3FD6A1372B6E53 /* Pods-BubbleTransition.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -417,6 +515,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F80CF0B0B47C8C1DC7026079 /* Pods-BubbleTransition.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -430,6 +529,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AE0B0B25EDB3F50CDB5BAA3 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BubbleTransition.app/BubbleTransition";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -452,6 +552,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46A33AC64148FF915044FA35 /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BubbleTransition.app/BubbleTransition";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -471,7 +572,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "BubbleTransition" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,

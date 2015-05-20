@@ -8,7 +8,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "BubbleTransition"
+  s.name             = "BubbleTransition-objc"
   s.version          = "0.1.0"
   s.summary          = "A short description of BubbleTransition."
   s.description      = <<-DESC
@@ -17,11 +17,11 @@ Pod::Spec.new do |s|
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/BubbleTransition"
+  s.homepage         = "https://github.com/epingwang/BubbleTransition"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "王易平" => "wangyiping1@letv.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/BubbleTransition.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/epingwang/BubbleTransition.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
