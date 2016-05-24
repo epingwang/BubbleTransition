@@ -22,6 +22,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		929292551CF469900001D737 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929292541CF469900001D737 /* Launch Screen.storyboard */; };
 		92B68C5B1B0C224800FA7C2C /* YPModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B68C5A1B0C224800FA7C2C /* YPModalViewController.m */; };
 		A7D65BC4B04D6ACFF2BE10DD /* libPods-BubbleTransition.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62493D90BB9AD616C80C838B /* libPods-BubbleTransition.a */; };
 		CFB79AAC787E1173382EAC08 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B75C2BBF97DBBBFAF1E668FF /* libPods-Tests.a */; };
@@ -63,6 +64,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		62493D90BB9AD616C80C838B /* libPods-BubbleTransition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BubbleTransition.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE0B0B25EDB3F50CDB5BAA3 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		929292541CF469900001D737 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		92B68C591B0C224800FA7C2C /* YPModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPModalViewController.h; sourceTree = "<group>"; };
 		92B68C5A1B0C224800FA7C2C /* YPModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPModalViewController.m; sourceTree = "<group>"; };
 		B75C2BBF97DBBBFAF1E668FF /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +137,7 @@
 		6003F593195388D20070C39A /* BubbleTransition */ = {
 			isa = PBXGroup;
 			children = (
+				929292541CF469900001D737 /* Launch Screen.storyboard */,
 				6003F59C195388D20070C39A /* YPAppDelegate.h */,
 				6003F59D195388D20070C39A /* YPAppDelegate.m */,
 				6003F59F195388D20070C39A /* Main_iPhone.storyboard */,
@@ -284,6 +287,7 @@
 				6003F5A4195388D20070C39A /* Main_iPad.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */,
+				929292551CF469900001D737 /* Launch Screen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
