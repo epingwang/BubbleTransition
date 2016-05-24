@@ -37,7 +37,13 @@
     UIView *containerView = [transitionContext containerView];
     
     if (self.transitionMode == YPBubbleTransitionModePresent) {
-        UIView *presentedControllerView = [transitionContext viewForKey:UITransitionContextToViewKey];
+        UIView *presentedControllerView = nil;
+        if ([transitionContext respondsToSelector:@selector(viewForKey:)]) {
+            presentedControllerView = [transitionContext viewForKey:UITransitionContextToViewKey];
+        }
+        else {
+            presentedControllerView = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey].view;
+        }
         
         CGPoint originalCenter = presentedControllerView.center;
         CGSize originalSize = presentedControllerView.frame.size;
